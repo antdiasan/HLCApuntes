@@ -10,8 +10,7 @@ theme:
   features:
     - navigation.sections  # Expansión y colapso de las secciones
     - navigation.instant   # Desplazamiento rápido
-extra_css:
-  - 'assets/css/custom.css'  # Ruta al archivo CSS que acabamos de crear
+
 nav:
   - Índice: 'index.md'
   - Unidad 1: []  # Si no tienes contenido, puedes dejarlo vacío de esta forma, o eliminar la entrada.
