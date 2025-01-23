@@ -1,18 +1,6 @@
-# Bienvenidos a los Apuntes del Módulo HLC
+# Bienvenido a los Apuntes de HLC
 
-Estos apuntes han sido elaborados para el módulo **HLC** del ciclo de **Sistemas Microinformáticos y Redes**. Aquí encontrarás información estructurada y recursos útiles para tu aprendizaje.
+Este proyecto contiene los apuntes organizados por unidades y apartados.
 
-## Unidades
-
-- **HTML**
-- **CSS**
-- **Algoritmia y Programación**
-
-## Autor
-
-Este sitio fue elaborado por **Antonio Díaz Santamaría** con el objetivo de facilitar la comprensión y el acceso a los temas clave del módulo.
-
----
-
-> ¡Explora las secciones desde el menú para comenzar!
-
+## Índice de Unidades
+- [Unidad 1: Introducción](u01/u01_01.md)
