@@ -11,21 +11,25 @@
       
       
       
+        <link rel="prev" href="../u03_05/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../u03_07/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>Apuntes del módulo HLC &copy;Antonio Díaz Santamaría</title>
+        <title>3.6. PseInt - Operadores, Instrucciones y Funciones incluidas - Apuntes del módulo HLC &copy;Antonio Díaz Santamaría</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="/assets/css/custom.css">
+      <link rel="stylesheet" href="../../assets/css/custom.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#operadores-y-expresiones" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-header__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
+    <a href="../.." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-header__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              3.6. PseInt - Operadores, Instrucciones y Funciones incluidas
             
           </span>
         </div>
@@ -176,7 +185,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-nav__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
+    <a href="../.." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-nav__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -194,7 +203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -211,8 +220,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -222,11 +233,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -240,7 +251,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Unidad 3
@@ -254,7 +265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_01/" class="md-nav__link">
+      <a href="../u03_01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -275,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_02/" class="md-nav__link">
+      <a href="../u03_02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -296,7 +307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_03/" class="md-nav__link">
+      <a href="../u03_03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -317,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_04/" class="md-nav__link">
+      <a href="../u03_04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -338,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_05/" class="md-nav__link">
+      <a href="../u03_05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -356,10 +367,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/u03/u03_06/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -368,6 +388,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -380,7 +401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_07/" class="md-nav__link">
+      <a href="../u03_07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -401,7 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_08/" class="md-nav__link">
+      <a href="../u03_08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -422,7 +443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_09/" class="md-nav__link">
+      <a href="../u03_09/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -460,6 +481,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -471,8 +494,87 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="operadores-y-expresiones">Operadores y Expresiones</h1>
+<p>Se pueden realizar operaciones (de distintos tipos), con las variables y con valores literales.
+Los tipos de operadores los podemos agrupar según el tipo de operación en:</p>
+<ul>
+<li>Aritméticos: + - * / % ^</li>
+<li>Relacionales: =  &lt;  &gt;  &gt;=  &lt;=  &lt;&gt;</li>
+<li>Lógicos: Y O NOT</li>
+</ul>
+<p>Algunos ejemplos son:</p>
+<pre><code>Si (edad &gt;= 18 Y tieneLicencia) Entonces
+    Escribir &quot;Puedes conducir.&quot;;
+FinSi
+
+Si (nota &gt;= 5) Entonces
+    Escribir &quot;Aprobado&quot;;
+SiNo
+    Escribir &quot;Suspenso&quot;;
+FinSi
+</code></pre>
+<p><br></p>
+<h1 id="funciones-incluidas">Funciones Incluidas</h1>
+<p>PSenInt incluye una serie de funciones que son muy útiles. </p>
+<p>Como los operadores se agrupan por el tipo de operación que realizan:</p>
+<ul>
+<li>Matemáticas: <ul>
+<li>raíz(x): devuelve la raíz cuadrada del valor de X</li>
+<li>abs(x): devuelve el valor absoluto de X</li>
+<li>trunc(x): devuelve el valor truncado de X</li>
+<li>redond(x): devuelve el valor redondeado de X</li>
+<li>…</li>
+</ul>
+</li>
+<li>De Cadena:<ul>
+<li>Longitud(cadena): devuelve la longitud de la cadena</li>
+<li>Mayúsculas(cadena): devuelve la cadena con todos los caracteres en mayúsculas</li>
+<li>Concatenar (nombre, apellidos): devuelve una cadena, que será el resultado de unir las dos que están entre paréntesis.</li>
+<li>…</li>
+</ul>
+</li>
+<li>Otras funciones:<ul>
+<li>Azar(numero): devuelve un valor aleatorio.</li>
+<li>HoraActual()</li>
+<li>FechaActual()
+<br></li>
+</ul>
+</li>
+</ul>
+<p>Algunos ejemplos son:</p>
+<pre><code>Definir numero como Entero;
+Leer numero;
+Escribir &quot;La raíz cuadrada es: &quot;, raiz(numero);
+
+Definir nombreCompleto como Cadena;
+nombreCompleto &lt;- Concatenar(&quot;Juan&quot;, &quot; Pérez&quot;);
+Escribir &quot;Nombre y Apellidos: &quot;, nombreCompleto;
+</code></pre>
+<p><br></p>
+<h1 id="otras-instrucciones">Otras Instrucciones</h1>
+<p>PSenInt permite un conjunto de instrucciones extras que, si bien no se pueden agrupar entre las anteriores, también son muy importantes y ampliamente utilizadas, como:</p>
+<ul>
+<li>EscribirSinSaltar</li>
+<li>BorrarPantalla</li>
+<li>EsperarTecla</li>
+<li>Esperar X: esperará X segundos antes de continuar.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -506,10 +608,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.sections", "navigation.instant"], "search": "/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.instant"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
     
   </body>

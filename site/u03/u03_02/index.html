@@ -11,21 +11,25 @@
       
       
       
+        <link rel="prev" href="../u03_01/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../u03_03/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>Apuntes del módulo HLC &copy;Antonio Díaz Santamaría</title>
+        <title>3.2. Análisis y Diseño - Apuntes del módulo HLC &copy;Antonio Díaz Santamaría</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="/assets/css/custom.css">
+      <link rel="stylesheet" href="../../assets/css/custom.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#fases-de-analisis-y-diseno" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-header__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
+    <a href="../.." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-header__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              3.2. Análisis y Diseño
             
           </span>
         </div>
@@ -176,7 +185,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-nav__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
+    <a href="../.." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-nav__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -194,7 +203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -211,8 +220,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -222,11 +233,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -240,7 +251,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Unidad 3
@@ -254,7 +265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_01/" class="md-nav__link">
+      <a href="../u03_01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -272,10 +283,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/u03/u03_02/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    3.2. Análisis y Diseño
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -284,6 +315,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#algoritmo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algoritmo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#herramientas-para-disenar-un-algoritmo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Herramientas para diseñar un Algoritmo.
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -296,7 +365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_03/" class="md-nav__link">
+      <a href="../u03_03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -317,7 +386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_04/" class="md-nav__link">
+      <a href="../u03_04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -338,7 +407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_05/" class="md-nav__link">
+      <a href="../u03_05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -359,7 +428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_06/" class="md-nav__link">
+      <a href="../u03_06/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -380,7 +449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_07/" class="md-nav__link">
+      <a href="../u03_07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -401,7 +470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_08/" class="md-nav__link">
+      <a href="../u03_08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -422,7 +491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_09/" class="md-nav__link">
+      <a href="../u03_09/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -460,6 +529,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#algoritmo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algoritmo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#herramientas-para-disenar-un-algoritmo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Herramientas para diseñar un Algoritmo.
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -471,8 +568,59 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="fases-de-analisis-y-diseno">Fases de Análisis y Diseño</h1>
+<p>Estas fases tienen ciertas características:</p>
+<ul>
+<li>Independiente del lenguaje de programación.</li>
+<li>Ha de ser fácil de entender y modificar.</li>
+<li>Es la base para poder realizar el programa que resuelva el problema planteado.</li>
+</ul>
+<p>Previamente hemos pasado la fase de <strong>Análisis de Requisitos</strong>, en el que se han recopilado todos los datos necesarios para satisfacer el problema que tiene el cliente. Para ello el analista se habrá reunido en repetidas ocasiones con los clientes.</p>
+<p>Una vez se ha recogido todos los datos, hay que realizar el análisis del problema, es decir especificar la forma en la que se va a resolver el problema. Para ello se va a diseñar lo que se denomina un Algoritmo.</p>
+<h2 id="algoritmo">Algoritmo</h2>
+<div class="custom-quote">Podemos definir algoritmo como una serie de pasos, cuyo seguimiento nos ayuda a resolver un problema. Por ejemplo, una receta de cocina.</div>
+
+<p>Todos los programas constan de varias fases, que podemos resumir con el siguiente gráfico:</p>
+<p align="center">
+  <img src="/images/programa.png" alt="Programa" width="400px" />
+</p>
+
+<p>La fase intermedia, es decir el programa, es el conjunto de instrucciones que son diseñadas por el Algoritmo.</p>
+<p>Todo algoritmo debe cumplir ciertos criterios:</p>
+<ul>
+<li>Debe ser preciso.</li>
+<li>Debe ser finito.</li>
+<li>Ante el mismo conjunto de datos de entrada, su ejecución siempre debe producir la misma salida.
+<br><br></li>
+</ul>
+<h2 id="herramientas-para-disenar-un-algoritmo">Herramientas para diseñar un Algoritmo.</h2>
+<p>Se utilizan distintas herramientas, como son diagrama de flujo y pseudocódigo:</p>
+<ul>
+<li><strong>Diagrama de Flujo</strong>: es una representación gráfica de un algoritmo. Utiliza símbolos estándar para ilustrar las operaciones y decisiones dentro de un proceso. Algunos de los símbolos más utilizados son:<ul>
+<li>Óvalo: Inicio y fin del programa.</li>
+<li>Rectángulo: Proceso o acción a realizar.</li>
+<li>Rombo: Decisiones lógicas (condicionales).</li>
+<li>Flechas: Indican el flujo del programa.</li>
+</ul>
+</li>
+<li><strong>Pseudocódigo</strong>: es una representación del algoritmo que se utilizará para resolver el problema, de una manera más cercana a un lenguaje de programación, aunque sigue siendo en un lenguaje natural y sin las reglas sintácticas y semánticas de un lenguaje de programación.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -506,10 +654,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.sections", "navigation.instant"], "search": "/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.instant"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
     
   </body>

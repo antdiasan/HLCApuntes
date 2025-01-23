@@ -11,21 +11,25 @@
       
       
       
+        <link rel="prev" href="../u03_07/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../u03_09/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>Apuntes del módulo HLC &copy;Antonio Díaz Santamaría</title>
+        <title>3.8. PseInt - Instrucciones Repetitivas - Apuntes del módulo HLC &copy;Antonio Díaz Santamaría</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="/assets/css/custom.css">
+      <link rel="stylesheet" href="../../assets/css/custom.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#estructuras-repetitivas" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-header__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
+    <a href="../.." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-header__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              3.8. PseInt - Instrucciones Repetitivas
             
           </span>
         </div>
@@ -176,7 +185,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-nav__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
+    <a href="../.." title="Apuntes del módulo HLC &amp;copy;Antonio Díaz Santamaría" class="md-nav__button md-logo" aria-label="Apuntes del módulo HLC &copy;Antonio Díaz Santamaría" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -194,7 +203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -211,8 +220,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -222,11 +233,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -240,7 +251,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Unidad 3
@@ -254,7 +265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_01/" class="md-nav__link">
+      <a href="../u03_01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -275,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_02/" class="md-nav__link">
+      <a href="../u03_02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -296,7 +307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_03/" class="md-nav__link">
+      <a href="../u03_03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -317,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_04/" class="md-nav__link">
+      <a href="../u03_04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -338,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_05/" class="md-nav__link">
+      <a href="../u03_05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -359,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_06/" class="md-nav__link">
+      <a href="../u03_06/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -380,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_07/" class="md-nav__link">
+      <a href="../u03_07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -398,10 +409,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/u03/u03_08/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    3.8. PseInt - Instrucciones Repetitivas
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -410,6 +441,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instruccion-mientras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instrucción MIENTRAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instruccion-repetir-hasta-que" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instrucción REPETIR-HASTA QUE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instruccion-para" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instrucción PARA
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -422,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/u03/u03_09/" class="md-nav__link">
+      <a href="../u03_09/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -460,6 +538,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instruccion-mientras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instrucción MIENTRAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instruccion-repetir-hasta-que" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instrucción REPETIR-HASTA QUE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instruccion-para" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instrucción PARA
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -471,8 +586,111 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="estructuras-repetitivas">Estructuras Repetitivas.</h1>
+<div class="custom-quote">También llamadas bucles, son un conjunto de instrucciones que se repiten un número determinado de veces, en ocasiones hasta alcanzar un número de vueltas concretas, o hasta que una variable alcance un determinado valor, etc.</div>
+
+<p>Cada una de las "vueltas" se denomina <strong>iteración</strong>.</p>
+<div class="custom-quote">Siempre se tiene que controlar, que el bucle realmente tenga fin.</div>
+
+<p>Por ejemplo:</p>
+<p align="center">
+  <img src="/images/tablaMultiplicar.png" alt="Tabla de Multiplicar" width="400px" />
+</p>
+
+<p>Cómo se puede apreciar en el diagrama de flujo, el bucle se va a repetir mientras que la variable <strong>cont</strong> sea menor que 10, como empieza con el valor 0, se repetirá 10 veces.</p>
+<p>Existen 3 tipos de bucles:</p>
+<ul>
+<li><strong>Mientras</strong>: Cuando no se sabe cuántas iteraciones se realizarán.</li>
+<li><strong>Repetir-Hasta Que</strong>: Cuando se necesita que el bloque se ejecute al menos una vez.</li>
+<li><strong>Para</strong>: Cuando se conoce el número exacto de iteraciones.
+<br><br></li>
+</ul>
+<h2 id="instruccion-mientras">Instrucción MIENTRAS</h2>
+<p>Se utiliza cuando no se sabe a priori cuantas iteraciones tendrá que realizar, sino que esto viene marcado por el valor de una variable concreta.</p>
+<p>Se podría dar el caso que no llegase a entrar nunca en el bucle.</p>
+<pre><code>Proceso TablaMultiplicar
+    Definir contador, num como Entero;
+
+    contador &lt;- 0;
+    sumatorio &lt;- 0;
+
+    Escribir &quot;Indica el Nº para mostrar su tabla de multiplicar:&quot;;
+    Leer num;
+
+    Mientras contador &lt; 10 Hacer
+        contador &lt;- contador + 1;
+        sumatorio &lt;- num + sumatorio;       
+        Escribir num, &quot; * &quot;, contador, &quot; = &quot;, sumatorio;
+    FinMientras
+
+    Escribir &quot;Fin del programa&quot;;
+FinProceso
+</code></pre>
+<p><br></p>
+<h2 id="instruccion-repetir-hasta-que">Instrucción REPETIR-HASTA QUE</h2>
+<p>La diferencia con la anterior (mientras), es que en esta siempre entra en el bucle, es decir, siempre ejecuta la iteración al menos 1 vez, a diferencia de la instrucción <strong>MIENTRAS</strong>, que no teníamos seguridad que realizase ninguna iteración.</p>
+<p>Como se puede apreciar en la figura, realiza las acciones de bucle, y luego realiza la comprobación.
+El código correspondiente será:</p>
+<p align="center">
+  <img src="/images/instruccionRepetirHastaQue.png" alt="Repetir Hasta Que" width="400px" />
+</p>
+
+<pre><code>Proceso TablaMultiplicar
+    Definir contador, num, sumatorio como Entero;
+
+    contador &lt;- 0;
+    sumatorio &lt;- 0;
+
+    Escribir &quot;Indica el Nº para mostrar su tabla de multiplicar:&quot;;
+    Leer num;
+
+    Repetir
+        contador &lt;- contador + 1;
+        sumatorio &lt;- num + sumatorio;       
+        Escribir num, &quot; * &quot;, contador, &quot; = &quot;, sumatorio;
+    Hasta Que contador &gt;= 10
+
+    Escribir &quot;Fin del programa&quot;;
+FinProceso
+</code></pre>
+<h2 id="instruccion-para">Instrucción PARA</h2>
+<p>Se utiliza cuando se conoce el número de iteraciones que debe realizar.</p>
+<p align="center">
+  <img src="/images/instruccionPara.png" alt="Instrucción Para" width="400px" />
+</p>
+
+<pre><code>Proceso TablaMultiplicar
+    Definir contador, num, sumatorio como Entero;
+
+    sumatorio &lt;- 0;
+
+    Escribir &quot;Indica el Nº para mostrar su tabla de multiplicar:&quot;;
+    Leer num;
+
+    Para contador &lt;- 1 Hasta 10 con Paso 1 Hacer
+        Escribir num, &quot; * &quot;, contador, &quot; = &quot;, sumatorio;
+    FinPara
+
+    Escribir &quot;Fin del programa&quot;;
+FinProceso
+</code></pre>
+<p>Como puede verse en el ejemplo, en la sintaxis se permite la opción <strong>Con Paso X</strong>, con el que se puede indicar de cuanto será el incremento de la variable en cada iteración, cuando el aumento es de 1, no es necesario indicarlo, en el ejemplo se ha indicado para que se pueda observar la sintaxis completa.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -506,10 +724,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.sections", "navigation.instant"], "search": "/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.instant"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
     
   </body>
