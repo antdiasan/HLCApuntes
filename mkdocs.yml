@@ -1,7 +1,27 @@
-site_name: Apuntes de HLC
+site_name: Apuntes del módulo HLC &copy;Antonio Díaz Santamaría
 site_author: Antonio Díaz Santamaría
 theme:
   name: 'material'
+  code:
+    highlighting: monokai  # Cambia "monokai" por el estilo que prefieras
+  palette:
+    primary: 'indigo'  # Color primario
+    accent: 'red'      # Color de acento
+  features:
+    - navigation.sections  # Expansión y colapso de las secciones
+    - navigation.instant   # Desplazamiento rápido
+extra_css:
+  - 'assets/css/custom.css'  # Ruta al archivo CSS que acabamos de crear
 nav:
-  - Inicio: 'index.md'
+  - Índice: 'index.md'
+  - Unidad 3:
+      - 3.1. Introducción: 'u03/u03_01.md'
+      - 3.2. Análisis y Diseño: 'u03/u03_02.md'
+      - 3.3. PseInt - Configuración: 'u03/u03_03.md'
+      - 3.4. PseInt - E/S: 'u03/u03_04.md'
+      - 3.5. PseInt - Tipos de Datos: 'u03/u03_05.md'
+      - 3.6. PseInt - Operadores, Instrucciones y Funciones incluidas: 'u03/u03_06.md'
+      - 3.7. PseInt - Instrucciones Alternativas: 'u03/u03_07.md'
+      - 3.8. PseInt - Instrucciones Repetitivas: 'u03/u03_08.md'
+      - 3.9. PseInt - Funciones: 'u03/u03_09.md'
 
