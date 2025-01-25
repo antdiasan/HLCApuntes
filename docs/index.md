@@ -1,6 +1,6 @@
 # Bienvenido a los Apuntes de HLC
 
-Este proyecto contiene los apuntes organizados por unidades y apartados.
+Este proyecto contiene los apuntes organizados por unidades
 
 ## Índice de Unidades
-- [Unidad 1: Introducción](u01/u01_01.md)
+- [Unidad 3: Algoritmia y Programacion](u03/u03_01.md)
