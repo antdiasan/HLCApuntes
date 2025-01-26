@@ -12,6 +12,7 @@ theme:
     - navigation.instant   # Desplazamiento rápido
 extra_css:
   - 'assets/css/custom.css'  # Ruta al archivo CSS que acabamos de crear
+  - 'assets/css/stylesheets.css'
 nav:
   - Índice: 'index.md'
   - Unidad 3:
