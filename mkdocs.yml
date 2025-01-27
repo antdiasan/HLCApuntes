@@ -25,5 +25,6 @@ nav:
       - 3.7. PseInt - Instrucciones Alternativas: 'u03/u03_07.md'
       - 3.8. PseInt - Instrucciones Repetitivas: 'u03/u03_08.md'
       - 3.9. PseInt - Funciones:
-          - 3.9.1 PseInt - Funciones con retorno: 'u03/u03_09-01.md'
+          - 3.9.1 PseInt - Funciones normales: 'u03/u03_09-01.md'
+          - 3.9.2 PseInt - Funciones con retorno: 'u03/u03_09-02.md'
 
