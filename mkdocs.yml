@@ -16,15 +16,16 @@ extra_css:
 nav:
   - Índice: 'index.md'
   - Unidad 3:
-      - 3.1. Introducción: 'u03/u03_01.md'
-      - 3.2. Análisis y Diseño: 'u03/u03_02.md'
-      - 3.3. PseInt - Configuración: 'u03/u03_03.md'
-      - 3.4. PseInt - E/S: 'u03/u03_04.md'
-      - 3.5. PseInt - Tipos de Datos: 'u03/u03_05.md'
-      - 3.6. PseInt - Operadores, Instrucciones y Funciones incluidas: 'u03/u03_06.md'
-      - 3.7. PseInt - Instrucciones Alternativas: 'u03/u03_07.md'
-      - 3.8. PseInt - Instrucciones Repetitivas: 'u03/u03_08.md'
-      - 3.9. PseInt - Funciones:
-          - 3.9.1 PseInt - Funciones normales: 'u03/u03_09-01.md'
-          - 3.9.2 PseInt - Funciones con retorno: 'u03/u03_09-02.md'
+      - 3.1. Introducción: 'u03/03-01.md'
+      - 3.2. Análisis y Diseño: 'u03/03-02.md'
+      - 3.3. PsInt:
+          - 3.3.1 Configuración: 'u03/03-03-01.md'
+          - 3.3.2 E/S: 'u03/03-03-02.md'
+          - 3.3.3 Tipos de Datos: 'u03/03-03-03.md'
+          - 3.3.4 Operadores, Instrucciones y Funciones incluidas: 'u03/03-03-04.md'
+          - 3.3.5 Instrucciones Alternativas: 'u03/03-03-05.md'
+          - 3.3.6 Instrucciones Repetitivas: 'u03/03-03-06.md'
+          - 3.3.7 Funciones:
+              - 3.3.7.1 Funciones sin retorno: 'u03/03-03-07-01.md'
+              - 3.3.7.2 Funciones con retorno: 'u03/03-03-07-02.md'
 
